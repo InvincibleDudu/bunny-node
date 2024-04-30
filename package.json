@@ -1,0 +1,13 @@
+{
+  "name": "bunny-node",
+  "version": "1.0.0",
+  "repository": "https://github.com/InvincibleDudu/bunny-node",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "npx tsc src/main.ts && node src/main.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}

@@ -4,13 +4,16 @@
   "repository": "https://github.com/InvincibleDudu/bunny-node",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "npx tsc src/main.ts && node --inspect src/main.js"
+    "start": "npx tsc src/main.ts && node --inspect src/main.js",
+    "fs": "npx tsc src/fsExtra.ts && node --inspect src/fsExtra.js"
   },
   "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^20.12.7",
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "axios": "^1.7.5"
+    "axios": "^1.7.5",
+    "fs-extra": "^11.3.0"
   }
 }

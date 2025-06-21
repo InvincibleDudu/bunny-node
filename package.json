@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "npx tsc src/main.ts && node --inspect src/main.js",
+    "cw": "npx swc src/codeWar.ts -o src/codeWar.js && node src/codeWar.js",
     "fs": "npx tsc src/fsExtra.ts && node --inspect src/fsExtra.js"
   },
   "devDependencies": {
